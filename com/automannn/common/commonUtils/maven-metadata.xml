@@ -3,9 +3,10 @@
   <groupId>com.automannn.common</groupId>
   <artifactId>commonUtils</artifactId>
   <versioning>
+    <release>1.0-RELEASE</release>
     <versions>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0-RELEASE</version>
     </versions>
-    <lastUpdated>20190429055309</lastUpdated>
+    <lastUpdated>20190515062135</lastUpdated>
   </versioning>
 </metadata>
