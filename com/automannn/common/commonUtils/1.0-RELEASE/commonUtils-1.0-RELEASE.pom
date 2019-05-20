@@ -16,15 +16,33 @@
     </properties>
 
     <repositories>
+        <!--<repository>-->
+            <!--<id>github</id>-->
+            <!--<url>https://github.com/Automannn/testRepo/tree/master/my-repo</url>-->
+            <!--<snapshots>-->
+                <!--<enabled>true</enabled>-->
+                <!--<updatePolicy>always</updatePolicy>-->
+            <!--</snapshots>-->
+        <!--</repository>-->
+
         <repository>
-            <id>mvn-repo</id>
-            <url>https://github.com/Automannn/commonUtils</url>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
+            <id>mytest</id>
+            <name>my nexus</name>
+            <url>http://automannn.cn:8081/repository/mytest/</url>
+            <snapshots><enabled>false</enabled></snapshots>
         </repository>
     </repositories>
+
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>any_id</id>-->
+            <!--<url>https://github.com/Automannn/commonUtils</url>-->
+            <!--<snapshots>-->
+                <!--<enabled>true</enabled>-->
+                <!--<updatePolicy>always</updatePolicy>-->
+            <!--</snapshots>-->
+        <!--</repository>-->
+    <!--</repositories>-->
 
     <build>
         <plugins>
@@ -88,6 +106,11 @@
         </dependency>
 
 
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15</artifactId>
+            <version>1.46</version>
+        </dependency>
 
 
     </dependencies>
